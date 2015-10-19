@@ -9,6 +9,9 @@ Generate Martini polyelectrolyte topology files for use with Gromacs
    ./topgen-martini-pdadma 30 pdadma.itp 
    ./topgen-martini-pss 30 pss.itp
 ```
+- Coordinates can be created from those topologies with molmaker.py by Manuel Melo (available at the 
+[Martini homepage](http://cgmartini.nl/index.php/tools2/proteins-and-bilayers)).
+
 ###Requirements:
  - Linux 
  - g++
