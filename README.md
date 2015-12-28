@@ -1,5 +1,8 @@
 # martini-polyelectrolytes
-Generate Martini polyelectrolyte topology files for use with Gromacs
+Generate Martini polyelectrolyte topology files for use with Gromacs.
+
+Background information on the models can be found in [J. Chem. Phys. 143, 243151 (2015)](http://scitation.aip.org/content/aip/journal/jcp/143/24/10.1063/1.4937805).
+Please cite this article if you use the Martini polyelectrolyte models in a publication.
 
 ###Usage:
  - Run `./compile.sh` (make sure it is executable)
