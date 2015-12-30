@@ -70,7 +70,7 @@ int main(int argc, char **argv){
 
   fprintf( outfile, ";\n; POLY(DIALLYLDIMETHYLAMMONIUM) \n;\n" );
   fprintf( outfile, "; NUMBER OF MONOMERS:           %u\n;\n",n );
-
+  fprintf( outfile, ";\n; If you use those parameters, please cite:\n; \n; M. Voegele, J. Smiatek, C. Holm \n; Coarse-grained simulations of polyelectrolyte complexes: MARTINI models for poly(styrene sulfonate) and poly(diallyldimethylammonium) \n; The Journal of Chemical Physics 143(24):243151, December 2015.\n; DOI: 10.1063/1.4937805 \n;\n\n" );
 
 
   /* write moleculetype */
