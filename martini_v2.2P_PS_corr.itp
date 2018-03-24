@@ -1,4 +1,4 @@
-; FORCEFIELD V2.2P - POLARIZABLE WATER .. (last modified: 08-8-2012 by DdJ) 
+; FORCEFIELD V2.2P - POLARIZABLE WATER - extended for polystyrene/PSS
 ;
 ;
 ; NOTE 1: Bead definitinions in this file have not been changed with respect to
@@ -6,18 +6,25 @@
 ;         between V2.P and V2.2P are created by the martinize script and can be found
 ;         in martini_v2.2p_aminoacids.itp.
 ;
-; If you use those parameters, please cite:
+; If you use those parameters, please cite the following publications:
 ;
-; D.H. de Jong, G. Singh, W.F.D. Bennet, C. Arnarez, T.A. Wassenaar, L.V. Schafer,
+; D.H. de Jong, G. Singh, W.F.D. Bennet, C. Arnarez, T.A. Wassenaar, L.V. Schäfer,
 ; X. Periole, D.P. Tieleman, S.J. Marrink.
-; Improved Parameters for the Martini Coarse-Grained Protein Force Field
+; Improved Parameters for the Martini Coarse-Grained Protein Force Field.
 ; J. Chem. Theory Comput., DOI: 10.1021/ct300646g
 ;
-; &
-; 
-; S.O. Yesylevskyy, L.V. Schafer, D. Sengupta, S.J. Marrink. 
-; "Polarizable water model for the coarse-grained Martini force field."
-; PLoS Comp. Biol, 2010.  
+; S.O. Yesylevskyy, L.V. Schäfer, D. Sengupta, S.J. Marrink. 
+; Polarizable water model for the coarse-grained Martini force field.
+; PLoS Comp. Biol, 2010. 
+;
+; G. Rossi, L. Monticelli, S. R. Puisto, I. Vattulainen, T. Ala-Nissila.
+; Coarse-graining polymers with the MARTINI force-field: polystyrene as a benchmark case.
+; Soft Matter 7 (2011) 698
+;
+; M. Vögele, C. Holm, J. Smiatek.
+; Coarse-grained simulations of polyelectrolyte complexes: MARTINI models for poly(styrene sulfonate) and poly(diallyldimethylammonium)
+; The Journal of Chemical Physics 2015 143:24, DOI: 10.1063/1.4937805
+;
 
 
 ; This file contains all interaction parameters and topology for the 
