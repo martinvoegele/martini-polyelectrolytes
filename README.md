@@ -15,7 +15,7 @@ Please cite this article if you use the Martini polyelectrolyte models in a publ
  - Coordinates can be created from those topologies with molmaker.py by Manuel Melo (available at the 
 [Martini homepage](http://cgmartini.nl/index.php/tools2/proteins-and-bilayers)).
 
- - Instead of the standard MArtini itp file, please include the Martini .itp file martini_v2.2P_PS_corr.itp provided here to your Gromacs topology.
+ - Instead of the standard Martini itp file, please include the Martini .itp file martini_v2.2P_PS_corr.itp provided here to your Gromacs topology.
 
 ## Requirements:
  - Linux 
